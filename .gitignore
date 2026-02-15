@@ -1,27 +1,17 @@
-# System
-.DS_Store
-Thumbs.db
-
-# Env
-.env
-.venv/
-venv/
-env/
-
 # Python
+.idea/
 __pycache__/
 *.pyc
 
-# Logs
-*.log
+# Virtual env
+.venv/
+venv/
 
-# IDE
-.vscode/
-.idea/
-.vs/
+# Secrets
+.env
 
-# Build
-dist/
-build/
-bin/
-obj/
+# Database
+*.db
+
+# VS Code temp
+tempCodeRunnerFile.py
